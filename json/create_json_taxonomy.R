@@ -19,7 +19,7 @@ process_levels <- function(data, label="Taxonomy") {
 }
 
 
-file = "source/Taxonomie ShareStats versie 17 maart 2021.xlsx"
+file = "../source/Taxonomie ShareStats versie 17 maart 2021.xlsx"
 
 # TAXONOMY
 stats_df <- read_excel(file, sheet = 1) %>%
